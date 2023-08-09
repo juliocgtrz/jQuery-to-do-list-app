@@ -60,6 +60,11 @@ function newItem(){
        function deleteListItem(){
              li.classList.add("delete")
          }
+
+     //jQuery version
+         function deleteListItem() {
+            li.addClass("delete");
+         }
      // 4. Reordering the items: 
        $('#list').sortable();
     
